@@ -1,4 +1,4 @@
-echo "this is for people who dont have git and are using wget..."
+echo "this is for people who dont have git and are using wget/curl..."
 
 echo 'starting...'
 
