@@ -46,6 +46,9 @@ echo 'downloading removal script...'
 
 wget https://raw.githubusercontent.com/cool5tar/Make-Your-Sileo/master/rm.sh
 
+echo 'downloading updater...'
+
+wget https://raw.githubusercontent.com/cool5tar/Make-Your-Sileo/master/dl-all.sh
 
 echo 'done...'
 

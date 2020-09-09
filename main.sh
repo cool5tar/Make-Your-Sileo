@@ -1,6 +1,11 @@
 #!/bin/bash
 # Bash Menu Script
 
+echo "for updating script run dl-all.sh"
+echo 'https://discord.gg/dpG9jzM'
+
+sleep 7
+
 echo 'Please enter your choice: '
 options=("install-git" "install-gem" "install-source" "install-all" "quit")
 select opt in "${options[@]}"
