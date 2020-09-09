@@ -16,10 +16,6 @@ tar xvfz rubygems-3.1.4.tgz
 
 sudo apt-get remove rubygems
 
-echo 'removing .tgz...'
-
-rm rubygems-3.1.4.tgz
-
 cd rubygems-3.1.4 && sudo ruby setup.rb
 
 sudo ln -s /usr/bin/gem1.8 /usr/bin/gem
@@ -30,16 +26,15 @@ echo 'done...'
 
 sleep 1
 
-
-
-
-
-
 cd ~
+cd Make-Your-Sileo
+echo 'removing .tgz...'
 
-echo "please navigate to main.sh and rerun"
+rm rubygems-3.1.4.tgz
+rm -rf rubygems-3.1.4
 
-ls
+bash main.sh
+
 
 echo please run as root
 
