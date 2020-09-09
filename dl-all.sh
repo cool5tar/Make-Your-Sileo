@@ -4,6 +4,8 @@ echo 'starting...'
 
 sleep 1
 
+cd ~
+
 mkdir Make-Your-Sileo
 
 cd Make-Your-Sileo
