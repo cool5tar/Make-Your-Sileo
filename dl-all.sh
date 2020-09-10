@@ -46,6 +46,10 @@ echo 'downloading removal script...'
 
 wget https://raw.githubusercontent.com/cool5tar/Make-Your-Sileo/master/rm.sh
 
+echo 'downloding uninstaller for all not just source...'
+
+wget https://raw.githubusercontent.com/cool5tar/Make-Your-Sileo/master/uninstall.sh
+
 echo 'downloading curl updater...'
 
 wget https://raw.githubusercontent.com/cool5tar/Make-Your-Sileo/master/dl-all.bash
