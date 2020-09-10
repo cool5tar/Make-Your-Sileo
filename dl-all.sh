@@ -66,11 +66,15 @@ wget https://raw.githubusercontent.com/cool5tar/Make-Your-Sileo/master/updater/u
 
 wget https://raw.githubusercontent.com/cool5tar/Make-Your-Sileo/master/updater/updaterlauncher.sh
 
-cd ..
+cd ~
+
+cd Make-Your-Sileo
 
 echo 'done...'
 
 echo 'starting installer...'
+
+ls
 
 sleep 2
 
