@@ -104,6 +104,5 @@ case "$response" in
     *)
         echo "stopping script..."
         ls
-        break
         ;;
 esac
