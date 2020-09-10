@@ -8,9 +8,13 @@ cd Make-Your-Sileo
 
 echo "removing and rerunning latest updater..."
 
-rm updaterlauncher.sh
+rm dl-all.bash
+
+rm rm.sh
 
 rm dl-all.sh
+
+rm install-all.sh
 
 rm gem.sh
 
