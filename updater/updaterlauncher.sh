@@ -4,17 +4,29 @@ sleep 1
 
 cd ~
 
-mkdir Make-Your-Sileo
-
 cd Make-Your-Sileo
 
-echo 'removing all bash files for update'
+echo "removing and rerunning latest updater..."
 
-rm dl-all.bash
+rm updaterlauncher.sh
+
+rm dl-all.sh
 
 rm gem.sh
 
-rm dl-all.sh
+rm git.sh
+
+rm source-menu.sh
+
+rm sourceinstall.sh
+
+rm README.md
+
+rm main.sh
+
+echo 'removed...'
+
+sleep 2
 
 echo 'downloading assets...'
 
@@ -60,7 +72,15 @@ echo 'downloading updater...'
 
 wget https://raw.githubusercontent.com/cool5tar/Make-Your-Sileo/master/dl-all.sh
 
-wget 
+mkdir updater
+
+cd updater
+
+rm updater.sh
+
+wget https://raw.githubusercontent.com/cool5tar/Make-Your-Sileo/master/updater/updater.sh
+
+cd ..
 
 echo 'done...'
 

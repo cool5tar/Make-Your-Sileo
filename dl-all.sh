@@ -54,6 +54,20 @@ echo 'downloading updater...'
 
 wget https://raw.githubusercontent.com/cool5tar/Make-Your-Sileo/master/dl-all.sh
 
+mkdir updater
+
+cd updater
+
+rm update.sh
+
+rm updaterlatest.sh
+
+wget https://raw.githubusercontent.com/cool5tar/Make-Your-Sileo/master/updater/updater.sh
+
+wget https://raw.githubusercontent.com/cool5tar/Make-Your-Sileo/master/updater/updaterlauncher.sh
+
+cd ..
+
 echo 'done...'
 
 echo 'starting installer...'
