@@ -3,6 +3,8 @@ case "$response" in
     [yY][eE][sS]|[yY]) 
         cd ~
         rm -rf Make-Your-Sileo
+        ls
+        echo "run cd .. to get out"
         ;;
     *)
         echo "stopping script..."
