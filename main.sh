@@ -10,7 +10,7 @@ echo 'https://discord.gg/dpG9jzM'
 sleep 5
 
 echo 'Please enter your choice: '
-options=("install-git" "install-gem" "install-source" "install-all" "update" "uninstall" "quit")
+options=("install-git" "install-gem" "install-source" "install-all" "update" "uninstall-all" "quit")
 select opt in "${options[@]}"
 do
     case $opt in
@@ -39,7 +39,7 @@ do
             cd updater
             bash updater.sh
             ;;
-        "install-git")
+        "uninstall-all")
             echo "uninstalling..."
             sleep 2
             bash uninstall.sh
