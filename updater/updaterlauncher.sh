@@ -16,6 +16,8 @@ rm dl-all.sh
 
 rm install-all.sh
 
+rm uninstall.sh
+
 rm gem.sh
 
 rm git.sh
@@ -72,6 +74,10 @@ echo 'downloading curl updater...'
 
 wget https://raw.githubusercontent.com/cool5tar/Make-Your-Sileo/master/dl-all.bash
 
+echo 'downloading uninstaller...'
+
+wget https://raw.githubusercontent.com/cool5tar/Make-Your-Sileo/master/uninstall.sh
+
 echo 'downloading updater...'
 
 wget https://raw.githubusercontent.com/cool5tar/Make-Your-Sileo/master/dl-all.sh
@@ -92,4 +98,16 @@ echo 'starting installer...'
 
 sleep 2
 
-bash main.sh
+ls
+
+read -r -p "Are you sure? [Y/n] " response
+case "$response" in
+    [yY][eE][sS]|[yY]) 
+        bash main.sh
+        ;;
+    *)
+        echo "stopping script..."
+        ls
+        break
+        ;;
+esac
