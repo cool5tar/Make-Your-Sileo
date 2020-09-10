@@ -1,10 +1,13 @@
 #!/bin/bash
 # Bash Menu Script
+cd ~
+rm dl-all.sh
+cd Make-Your-Sileo
 
 echo "for updating script run dl-all.sh"
 echo 'https://discord.gg/dpG9jzM'
 
-sleep 7
+sleep 5
 
 echo 'Please enter your choice: '
 options=("install-git" "install-gem" "install-source" "install-all" "quit")

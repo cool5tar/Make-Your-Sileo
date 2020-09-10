@@ -16,7 +16,7 @@ bash dl-all.sh
 ```
 or use curl
 ```
-https://raw.githubusercontent.com/cool5tar/Make-Your-Sileo/master/dl-all.bash | bash
+curl https://raw.githubusercontent.com/cool5tar/Make-Your-Sileo/master/dl-all.bash | bash
 ```
 
 Dont worry the program will create a folder for the files
