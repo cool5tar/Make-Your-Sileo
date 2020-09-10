@@ -94,13 +94,9 @@ cd ..
 
 echo 'done...'
 
-echo 'starting installer...'
+sleep 1
 
-sleep 2
-
-ls
-
-read -r -p "Are you sure? [Y/n] " response
+read -r -p "Do you want to start installer? [Y/n] " response
 case "$response" in
     [yY][eE][sS]|[yY]) 
         bash main.sh
