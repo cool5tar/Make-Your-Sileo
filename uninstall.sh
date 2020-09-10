@@ -6,7 +6,6 @@ case "$response" in
         ;;
     *)
         echo "stopping script..."
-        break
         ;;
 esac
 
